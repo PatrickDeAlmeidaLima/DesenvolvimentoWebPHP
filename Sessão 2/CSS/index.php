@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Curso php</title>
 </head>
@@ -25,7 +23,7 @@
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="exercicio.php">
                                 Exercícios A
                             </a>
                         </li>
@@ -209,4 +207,24 @@
     </footer>
 </body>
 
-</html>
+
+
+
+
+
+
+
+<?php
+
+
+
+$dominio = $_SERVER['HTTP_HOST'];
+$url = "https://" . $dominio . $_SERVER['REQUEST_URI'];
+$newURL = str_replace("action.php","",$url);
+echo "A URL atual é: " . $newURL;
+
+
+?>
+<script>
+    window.location.href = $newURL;
+</script>

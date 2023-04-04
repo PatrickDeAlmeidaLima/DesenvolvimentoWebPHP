@@ -13,7 +13,7 @@
 </head>
 <nav class="navegacao">
     <a href="#" class="verde">Sem formatação</a>
-    <a href="index.php" class="vermelha">Voltar</a>
+    <a href="index.php" class="vermelho">Voltar</a>
 </nav>
 
 <body class="exercicio">
@@ -23,7 +23,7 @@
     </header>
     <main class="principal">
         <div class="conteudo">
-            <?php include('./assets/recurso/recurso.php') ?>
+            <?php include('assets/recurso/recurso.php') ?>
         </div>
     </main>
     <footer class="rodape">

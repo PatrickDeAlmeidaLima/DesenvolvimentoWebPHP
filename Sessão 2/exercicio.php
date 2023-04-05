@@ -23,7 +23,9 @@
     </header>
     <main class="principal">
         <div class="conteudo">
-            <?php include('assets/recurso/recurso.php') ?>
+            <!-- <?php include($_GET['dir'] . '/' . $_GET['file'] . '.php') ?> -->
+            <!-- <?php include("{$_GET['dir']}/{$_GET['file']}.php") ?> -->
+            <?php include("teste/teste.php") ?>
         </div>
     </main>
     <footer class="rodape">

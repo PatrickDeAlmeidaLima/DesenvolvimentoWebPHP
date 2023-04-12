@@ -27,16 +27,6 @@
                                 Exercícios A
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Exercícios B
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Exercícios C
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </nav>

@@ -27,6 +27,11 @@
                                 Exercícios A
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=basico&file=html">
+                                Integração HTML
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

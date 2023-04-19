@@ -25,7 +25,8 @@
         <div class="conteudo">
             <!-- <?php include($_GET['dir'] . '/' . $_GET['file'] . '.php') ?> -->
             <!-- <?php include("{$_GET['dir']}/{$_GET['file']}.php") ?> -->
-            <?php include("basico/ola.php") ?>
+            <!-- <?php include("basico/ola.php") ?>  --> 
+            <?php include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"); ?>
         </div>
     </main>
     <footer class="rodape">

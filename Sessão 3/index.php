@@ -23,7 +23,7 @@
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php">
+                            <a href="exercicio.php?dir=basico&file=ola">
                                 Exercícios A
                             </a>
                         </li>

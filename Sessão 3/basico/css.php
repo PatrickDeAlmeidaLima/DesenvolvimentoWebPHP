@@ -9,7 +9,7 @@
     ?>
 </h1>
 
-<?= "<div>Outra forma de me 'expressar'!</div>" ?>
+<?= "<div center azul>Outra forma de me 'expressar'!</div>" ?>
 
 <br>
 <div center><button dobro><?= "Legal" ?></button></div>
@@ -28,7 +28,11 @@
         justify-content: center;
     }
 
-    [azul] {
+    /* [azul] {
+        color: #4286f4;
+    } */
+
+    <?= "[azul]" ?> {
         color: #4286f4;
     }
 

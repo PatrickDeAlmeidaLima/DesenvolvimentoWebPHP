@@ -33,6 +33,6 @@
     }
 
     [dobro] {
-        font-size: <?= 10 - 8 ?>rem;
+        font-size: <?= 10 - 8 ?> rem;
     }
 </style>

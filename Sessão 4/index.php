@@ -57,6 +57,11 @@
                                 Tipo float
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=aritimeticas">
+                                Tipo aritimeticas
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

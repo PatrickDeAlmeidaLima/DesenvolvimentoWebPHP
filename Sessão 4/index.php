@@ -49,17 +49,22 @@
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=int">
-                                Tipo inteiro
+                                Tipo Inteiro
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=float">
-                                Tipo float
+                                Tipo Float
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=aritimeticas">
-                                Tipo aritimeticas
+                                Tipo Aritimeticas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
+                                Desafio precedência
                             </a>
                         </li>
                     </ul>

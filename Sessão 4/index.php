@@ -64,7 +64,12 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
-                                Desafio precedência
+                                Desafio Precedência
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=string">
+                                Tipo String
                             </a>
                         </li>
                     </ul>

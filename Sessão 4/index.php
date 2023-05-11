@@ -77,6 +77,11 @@
                                 Desafio String
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=bolean">
+                                Bolean
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

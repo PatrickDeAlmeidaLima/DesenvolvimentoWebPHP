@@ -5,6 +5,7 @@ strpos(): Encontra a posição da primeira ocorrência de uma substring em uma s
 str_replace(): Substitui todas as ocorrências de uma substring por outra em uma string.
 strtolower(): Converte uma string para minúsculas.
 strtoupper(): Converte uma string para maiúsculas.
+
 Funções matemáticas:
 
 abs(): Retorna o valor absoluto de um número.
@@ -18,12 +19,14 @@ array_push(): Adiciona um ou mais elementos ao final de um array.
 array_pop(): Remove e retorna o último elemento de um array.
 array_merge(): Combina dois ou mais arrays em um único array.
 array_key_exists(): Verifica se uma chave existe em um array.
+
 Funções de manipulação de datas e horas:
 
 date(): Formata uma data e hora de acordo com um formato especificado.
 time(): Retorna o timestamp atual (segundos desde 1º de janeiro de 1970).
 strtotime(): Converte uma string em um timestamp.
 mktime(): Retorna o timestamp de uma data e hora especificadas.
+
 Funções de interação com o sistema de arquivos:
 
 file_exists(): Verifica se um arquivo ou diretório existe.
@@ -31,3 +34,154 @@ fopen(): Abre um arquivo ou URL.
 fread(): Lê uma quantidade específica de bytes de um arquivo aberto.
 fwrite(): Escreve dados em um arquivo aberto.
 fclose(): Fecha um arquivo aberto.
+
+
+https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro
+*************
+Funções de manipulação de strings:
+<?php
+$texto = "Hello, world!";
+$comprimento = strlen($texto);
+echo $comprimento; 
+// anotação: serve para contar o comprimento da string
+
+?> 
+
+---------
+<?php
+$texto = "Hello, world!";
+$posicao = strpos($texto, "world");
+echo $posicao; // Saída: 7 ()
+
+// anotação: serve para a posição da palavra "world" começa na sétima posição da string
+// para encontrar a posição da primeira ocorrência de uma substring em uma string.
+
+?> 
+
+---------
+<?php
+$texto = "Hello, world!";
+$novoTexto = str_replace("world", "PHP", $texto);
+echo $novoTexto; 
+
+// Substitui todas as ocorrências de uma substring por outra em uma string.
+
+?> 
+
+---------
+<?php
+$texto = "Hello, world!";
+$textoMinusculo = strtolower($texto);
+echo $textoMinusculo; 
+
+// coloca tudo minusculo.
+
+?> 
+---------
+$texto = "Hello, world!";
+$textoMaiusculo = strtoupper($texto);
+echo $textoMaiusculo; 
+// anotação: coloca tudo maiuscula
+?> 
+
+*************
+Funções matemáticas:
+
+<?php
+$numero = -10;
+$valorAbsoluto = abs($numero);
+echo $valorAbsoluto;
+
+// O valor absoluto de um número e seu oposto é o mesmo. Ou seja, o valor de -19 e 19 é o mesmo: 19.
+
+?> 
+---------
+<?php
+$numero = 3.52;
+$numeroArredondado = round($numero);
+echo $numeroArredondado; 
+
+// O valor é arredondado
+?> 
+
+---------
+
+<?php
+$numeroAleatorio = rand(1, 10);
+echo $numeroAleatorio; 
+
+
+// O valor aleatorio entre o 1 e 10
+?> 
+
+---------
+<?php
+$frutas = array("maçã", "banana");
+array_push($frutas, "laranja", "morango","amora");
+print_r($frutas); //
+
+
+
+// Adiciona elementos no final do array
+?> 
+---------
+<?php
+$frutas = array("maçã", "banana", "laranja","amora");
+$ultimaFruta = array_pop($frutas);
+echo $ultimaFruta; // Saída: laranja
+
+// Adiciona elementos no final do array
+?> 
+---------
+<?php
+$array1 = array("a", "b");
+$array2 = array("c", "d");
+$resultado = array_merge($array1, $array2);
+print_r($resultado); 
+
+// Combina dois ou mais arrays em um único array.
+?> 
+
+---------
+<?php
+$array1 = array("a", "b");
+$array2 = array("c", "d");
+$resultado = array_merge($array1, $array2);
+print_r($resultado); 
+
+// Combina dois ou mais arrays em um único array.
+?> 
+
+*************
+Funções de manipulação de datas e horas:
+
+<?php
+$dataAtual = date("d/m/Y");
+echo $dataAtual; 
+
+// saída: data atual no formato "dia/mês/ano"
+?> 
+---------
+<?php
+$timestampAtual = time();
+echo $timestampAtual; 
+
+// saída: timestamp atual (um número inteiro)
+?> 
+---------
+<?php
+$dataString = "2023-06-30";
+$timestamp = strtotime($dataString);
+echo $timestamp; 
+
+// Converte uma string em um timestamp para manipular com data
+?> 
+---------
+<?php
+$timestamp = mktime(12, 30, 0, 6, 30, 2023);
+echo $timestamp; 
+
+// Retorna o timestamp de uma data e hora especificadas.
+?> 
+---------
+

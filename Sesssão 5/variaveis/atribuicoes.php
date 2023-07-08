@@ -39,6 +39,8 @@ echo '<br>' . $texto . " mesmo";
 
 // $variavenInexistente = "valor existente";
 echo '<br>' . $variavenInexistente;
+// echo '<br>' ; 
+var_dump($variavenInexistente);
 
 $valor = $variavenInexistente ?? "valor default";
 echo '<br>' . $valor;

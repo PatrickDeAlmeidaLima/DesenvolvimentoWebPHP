@@ -14,4 +14,9 @@ echo "<br> $texto";
 
 $objeto = 'caneta';
 echo "<br> Eu tenho 5: $objetos";
-echo "<br> Eu tenho 5: {$objeto}s";
+echo "<br> Eu tenho 5: {$objeto}s.";
+echo "<br> Eu tenho 5: { $objeto}s mas eu perdi 3 {$objeto }s";
+echo "<br>";
+// echo "$numero +1"; não funciona como esperado
+// echo "{$numero +1}"; não funciona como esperado
+

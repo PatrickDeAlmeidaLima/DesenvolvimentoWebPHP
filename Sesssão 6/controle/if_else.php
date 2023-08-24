@@ -3,7 +3,7 @@
 <?php
 if (true) {
     echo "Serei impresso?";
-    echo "Serei impresso novamente?";
+    echo "<br>"."Serei impresso novamente?";
 } else {
 
 }

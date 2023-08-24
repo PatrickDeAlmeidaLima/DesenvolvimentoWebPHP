@@ -23,7 +23,7 @@
                     <h3>4. Váriaveis</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=if_else">
+                            <a href="exercicio.php?dir=controle&file=if_else">
                                 If Else
                             </a>
                         </li>
